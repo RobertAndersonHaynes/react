@@ -1,0 +1,54 @@
+div#app {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div#wrapper {
+  border:2px black solid;
+  background-color: #3F522F;
+  border-radius: 15px;
+}
+
+div.small-12.columns {
+  width: 100%;
+  text-align: right;
+}
+
+div.columns.small-11.large-centered {
+  text-align: center;
+}
+input#email {
+  background-color: #EDD94D;
+  height: 25px;
+  border: black;
+}
+
+div.small-2.columns {
+  background-color: #7CA061;
+  height: 25px;
+  margin-right: 90px;
+  border:1px #EDD94D solid;
+}
+
+div.small-2.columns:hover {
+  background-color: #F4AE3B;
+  height: 25px;
+  margin-right: 90px;
+  border:1px #F7DA47 solid;
+  box-shadow: 2px 0px 20px 13px rgba(130,20,31,1);
+  color: rgba(130,20,31,1);
+}
+
+h1 {
+  text-shadow: 2px 2px 2px #EDD94D;
+  font-family: 'Metal Mania', cursive;
+}
+
+h5 {
+  color: #7CA061;
+}
+
+i.fas.fa-times:hover {
+  color: rgba(130,20,31,1);
+}
