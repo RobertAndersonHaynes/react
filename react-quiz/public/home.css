@@ -1,0 +1,54 @@
+body {
+  background-color: #F5F8FA;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+div#app {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+h3 {
+  margin-top: 40px;
+  font-size: 40px;
+  color: #399DC1;
+  text-shadow: 0px 2px 0px rgba(20, 126, 161, 1);
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 25px;
+
+}
+
+li {
+  text-align: center;
+  border:2px black solid;
+  border-radius: 20px;
+  width: 40%;
+  height: 30px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-color: #399DC1;
+  color: white;
+}
+
+li:hover {
+  color: black;
+  background-color: white;
+}
+
+h5 {
+  font-size: 35px;
+  margin-top: 25px;
+}
+
+h5.correct {
+  color: #10cc42
+}
+
+h5.incorrect {
+  color: #cc1010
+}
